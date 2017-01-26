@@ -7,7 +7,7 @@ define(['cardBuilder', 'emby-itemscontainer'], function (cardBuilder) {
 
             ParentId: parentId,
             EnableImageTypes: "Primary,Backdrop,Thumb",
-            SortBy: 'SortName'
+            SortBy: 'isUnplayed'
         };
 
         return Emby.Models.items(options).then(function (result) {
