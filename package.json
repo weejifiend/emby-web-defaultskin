@@ -1,6 +1,6 @@
 {
-    "name": "emby.defaultskin",
-    "displayName": "Default Skin",
+    "name": "emby.defaultskinWeeji",
+    "displayName": "Default Skin (Weeji)",
     "version": "1.0.0",
     "description": "The default Emby skin.",
     "plugin": "plugin.js",
