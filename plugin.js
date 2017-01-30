@@ -458,7 +458,7 @@ define(['playbackManager', 'pluginManager', 'browser', 'connectionManager', 'eve
             document.querySelector('.headerLogo').classList.remove('hide');
 
             document.querySelector('.headerSearchButton').classList.add('hide');
-            document.querySelector('.headerUserButton').classList.add('hide');
+//            document.querySelector('.headerUserButton').classList.add('hide');
         }
 
         function onViewShow(e) {
