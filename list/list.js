@@ -65,6 +65,7 @@ define(['loading', 'scroller', 'playbackManager', 'alphaPicker', './../component
                 StartIndex: startIndex,
                 Limit: limit,
                 SortBy: 'isUnplayed',
+                SortOrder: 'Descending',
                 Recursive: true,
                 GenreIds: params.genreId,
                 ParentId: item.Id,
