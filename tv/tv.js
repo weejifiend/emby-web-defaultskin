@@ -176,6 +176,7 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                         IncludeItemTypes: "Series",
                         Recursive: true,
                         SortBy: "isUnplayed",
+                        SortOrder: "Descending",
                         ImageTypeLimit: 1,
                         Fields: "PrimaryImageAspectRatio,isUnplayed"
                     });
