@@ -64,7 +64,7 @@ define(['loading', 'scroller', 'playbackManager', 'alphaPicker', './../component
             return Emby.Models.items({
                 StartIndex: startIndex,
                 Limit: limit,
-                SortBy: 'SortName',
+                SortBy: 'isUnplayed',
                 Recursive: true,
                 GenreIds: params.genreId,
                 ParentId: item.Id,
@@ -75,7 +75,7 @@ define(['loading', 'scroller', 'playbackManager', 'alphaPicker', './../component
         return Emby.Models.children(item, {
             StartIndex: startIndex,
             Limit: limit,
-            Fields: 'SortName'
+            Fields: 'isUnplayed'
         });
     }
 
