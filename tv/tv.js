@@ -175,9 +175,9 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                         ParentId: pageParams.parentid,
                         IncludeItemTypes: "Series",
                         Recursive: true,
-                        SortBy: "SortName",
+                        SortBy: "isUnplayed",
                         ImageTypeLimit: 1,
-                        Fields: "PrimaryImageAspectRatio,SortName"
+                        Fields: "PrimaryImageAspectRatio,isUnplayed"
                     });
                 },
                 listCountElement: page.querySelector('.listCount'),
